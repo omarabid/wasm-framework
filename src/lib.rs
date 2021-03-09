@@ -24,8 +24,6 @@ pub use url::Url;
 
 mod context;
 pub use context::Context;
-mod assets;
-pub use assets::StaticAssetHandler;
 mod httpdate;
 pub(crate) mod js_values;
 pub use httpdate::HttpDate;
